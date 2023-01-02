@@ -4,6 +4,11 @@ Under construction! Not ready for use yet! Currently experimenting and planning!
 
 Developed by Bfsu Intelligent Accounting Team (c) 2023
 
+## How to install
+```python
+pip install cpanlp
+```
+
 ## Examples of How To Use (Buggy Alpha Version)
 
 Creating A Server
