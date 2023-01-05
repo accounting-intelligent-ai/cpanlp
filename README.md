@@ -5,7 +5,7 @@ CPANLP: Certified Public Accountant Natural Language Processing toolkit
 Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 Github:https://github.com/accounting-intelligent-ai/cpanlp
-
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=cpanlp&message=1.0.18&color=blue)](https://pypi.org/project/cpanlp/)
 ## 特点
 
 ## 安装说明
@@ -23,5 +23,7 @@ df = cp.gettoday()
 |---:|:---------------------------------------------------|-----------:|:-----------|:----------------------------------------------------------------|:-----------|-----:|
 |  0 | 唐源电气：国金证券关于唐源电气2022年度现场检查报告 |     300789 | 唐源电气   | http://static.cninfo.com.cn/finalpage/2023-01-03/1215519757.PDF | 2023-01-03 |    1 |
 
-
+```python
+report = cp.getreport(df.iloc[0, 3])
+```
 Check out: https://cpanlp.com
