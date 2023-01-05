@@ -4,7 +4,8 @@ CPANLP: Certified Public Accountant Natural Language Processing toolkit
 
 Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
-Github:https://github.com/accounting-intelligent-ai/cpanlp
+[Github](https://github.com/accounting-intelligent-ai/cpanlp)
+
 [![PyPI - Python Version](https://img.shields.io/static/v1?label=cpanlp&message=1.0.18&color=blue)](https://pypi.org/project/cpanlp/)
 ## 特点
 
