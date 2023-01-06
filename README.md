@@ -1,12 +1,18 @@
+<p align="center">
+    <a alt="cpanlp logo">
+        <img src="../../blob/main/cpanlp.png" style="width:300px;height:100px">
+    </a>
+</p>
+
 CPANLP: Certified Public Accountant Natural Language Processing toolkit
 
-注册会计师自然语言包：做最好的Python智能会计组件
+We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package to drive the linguistic turn of accounting.我们是北外智能会计团队，开发了这套智能会计python组件，助力会计的语言学转向。
 
 Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
-[![PyPI - Python Version](https://img.shields.io/static/v1?label=cpanlp&message=1.0.18&color=blue)](https://pypi.org/project/cpanlp/)
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.18&color=blue)](https://pypi.org/project/cpanlp/)
 ## 特点
 
 ## 安装说明
