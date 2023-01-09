@@ -1,8 +1,4 @@
-<p align="center">
-    <a alt="cpanlp logo">
-        <img src="../../blob/main/cpanlp.png" style="width:300px;height:100px">
-    </a>
-</p>
+[![](https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png)](https://cpanlp.com)
 
 CPANLP: Certified Public Accountant Natural Language Processing toolkit
 
@@ -12,7 +8,7 @@ Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
-[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.18&color=blue)](https://pypi.org/project/cpanlp/)
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.19&color=blue)](https://pypi.org/project/cpanlp/)
 ## 特点
 
 ## 安装说明
@@ -32,5 +28,12 @@ df = cp.gettoday()
 
 ```python
 report = cp.getreport(df.iloc[0, 3])
+```
+
+2.模拟会计科目
+```python
+import cpanlp as cp
+资产1 = cp.Asset(account="黄金", debit=1000,date="2023-01-01")
+资产1.makemoney()
 ```
 Check out: https://cpanlp.com
