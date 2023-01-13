@@ -2,13 +2,14 @@
 
 CPANLP: Certified Public Accountant Natural Language Processing toolkit
 
-We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package to drive the linguistic turn of accounting.我们是北外智能会计团队，开发了这套智能会计python组件，助力会计的语言学转向。
+We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package for intelligent certified accountants.
+
 
 Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
-[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.19&color=blue)](https://pypi.org/project/cpanlp/)
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.29&color=blue)](https://pypi.org/project/cpanlp/)
 ## 特点
 
 ## 安装说明
@@ -34,6 +35,13 @@ report = cp.getreport(df.iloc[0, 3])
 ```python
 import cpanlp as cp
 资产1 = cp.Asset(account="黄金", debit=1000,date="2023-01-01")
-资产1.makemoney()
+print(资产1.bubble)
+```
+
+3.描述信息不对称
+```python
+import cpanlp as cp
+info = cp.AsymmetricInformation("投资人", "企业A", "我很有兴趣投资您的企业", "我有有限的预算")
+info.get_advantage()
 ```
 Check out: https://cpanlp.com
