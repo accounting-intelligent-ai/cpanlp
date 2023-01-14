@@ -1,6 +1,7 @@
+# CPANLP: Certified Public Accountant Natural Language Processing toolkit
+
 [![](https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png)](https://cpanlp.com)
 
-# CPANLP: Certified Public Accountant Natural Language Processing toolkit
 
 We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package for intelligent certified accountants.
 这个时代叫做AI，我们是北外智能会计博士课题组，致力推动具有经济学基础的会计学的语言学转向(**The Linguistic Turn of Accounting on Economic Basis**)。
@@ -10,7 +11,7 @@ Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
-[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.29&color=blue)](https://pypi.org/project/cpanlp/)
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.35&color=blue)](https://pypi.org/project/cpanlp/)
 [![Downloads](https://static.pepy.tech/badge/cpanlp/week)](https://pepy.tech/project/cpanlp)
 
 ## Install安装说明
@@ -46,5 +47,12 @@ print(gold_asset.bubble)
 import cpanlp as cp
 info = cp.AsymmetricInformation("investor", "company_A", "I am very interested in investing in your business", "I have a limited budget")
 info.get_advantage()
+```
+
+4.Entrepreneur企业家
+```python
+import cpanlp as cp
+john = cp.Entrepreneur("John Smith",30, 5,LLC("Apple","Electronics",1000000))
+john.strive_for_excellence()
 ```
 Check out: https://cpanlp.com
