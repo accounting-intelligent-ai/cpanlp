@@ -21,7 +21,7 @@ pip install cpanlp
 ```
 
 ## Features主要功能
-### 1.Get Report今日财报
+1.Get Report今日财报
 ```python
 import cpanlp as cp
 df = cp.gettoday()
@@ -34,14 +34,14 @@ df = cp.gettoday()
 report = cp.getreport(df.iloc[0, 3])
 ```
 
-### 2.Accounting Item会计科目
+2.Accounting Item会计科目
 ```python
 import cpanlp as cp
 gold_asset = cp.Asset(account="gold", debit=1000,date="2023-01-01")
 print(gold_asset.bubble)
 ```
 
-### 3.Information Asymmetry信息不对称
+3.Information Asymmetry信息不对称
 ```python
 import cpanlp as cp
 info = cp.AsymmetricInformation("investor", "company_A", "I am very interested in investing in your business", "I have a limited budget")
