@@ -11,7 +11,7 @@ Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
-[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.35&color=blue)](https://pypi.org/project/cpanlp/)
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.41&color=blue)](https://pypi.org/project/cpanlp/)
 [![Downloads](https://static.pepy.tech/badge/cpanlp/week)](https://pepy.tech/project/cpanlp)
 
 ## Install安装说明
@@ -54,5 +54,11 @@ info.get_advantage()
 import cpanlp as cp
 john = cp.Entrepreneur("John Smith",30, 5,LLC("Apple","Electronics",1000000))
 john.strive_for_excellence()
+```
+
+5.Strategy策略
+```python
+import cpanlp as cp
+huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 ```
 Check out: https://cpanlp.com
