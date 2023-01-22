@@ -1,5 +1,18 @@
 # CPANLP: Certified Public Accountant Natural Language Processing toolkit
 
+## 给您拜年了 Happy 🐰 Year
+```python
+def Happy 🐰 Year():
+    wishes = ["新年快乐！兔年大吉！", "天天开心，身体健康！", "全家幸福，事事顺心！"]
+    happy_asset = Happy_New_Year_Asset("Everybody","2023-01-22",0.005,wishes)
+    happy_asset.add_wishes(wishes)
+    happy_asset.amortize(1)
+    happy_person = happy_asset.account
+    happy_income = happy_asset.amortization_history[0][1]
+    print(happy_person,"新年第一天的幸福：",happy_income,"😄") 
+if __name__ == '__main__':
+    Happy 🐰 Year()
+```
 [![](https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png)](https://cpanlp.com)
 
 
@@ -11,7 +24,7 @@ Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
-[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.41&color=blue)](https://pypi.org/project/cpanlp/)
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.43&color=blue)](https://pypi.org/project/cpanlp/)
 [![Downloads](https://static.pepy.tech/badge/cpanlp/week)](https://pepy.tech/project/cpanlp)
 
 ## Install安装说明
