@@ -1,6 +1,6 @@
 # CPANLP: Certified Public Accountant Natural Language Processing toolkit
 
-## 给您拜年了 Happy 🐰 Year
+### 给您拜年了 Happy 🐰 Year
 ```python
 def Happy 🐰 Year():
     wishes = ["新年快乐！兔年大吉！", "天天开心，身体健康！", "全家幸福，事事顺心！"]
@@ -17,27 +17,27 @@ if __name__ == '__main__':
 
 
 We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package for intelligent certified accountants.
-这个时代叫做AI，我们是北外智能会计博士课题组，致力推动具有经济学基础的会计学的语言学转向(**The Linguistic Turn of Accounting on Economic Basis**)。
+这个时代叫做AI，我们是北外智能会计博士课题组，致力推动具有`经济学基础的会计学的语言学转向`(**The Linguistic Turn of Accounting on Economic Basis**)`。
 
 
 Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
-[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.43&color=blue)](https://pypi.org/project/cpanlp/)
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.1&color=blue)](https://pypi.org/project/cpanlp/)
 [![Downloads](https://static.pepy.tech/badge/cpanlp/week)](https://pepy.tech/project/cpanlp)
 
-## Install安装说明
+## Install & Import 安装和导入
 For detailed installation instructions, see the
 [documentation](https://cpanlp.com/documentation).
 ```python
 pip install cpanlp
+import cpanlp as cp
 ```
 
 ## Features主要功能
-1.Get Report今日财报
+1. Get Report今日财报
 ```python
-import cpanlp as cp
 df = cp.gettoday()
 ```
 |    | 标题                                               |   证券代码 | 证券简称   | 网址                                                            | 日期       |   id |
@@ -47,31 +47,24 @@ df = cp.gettoday()
 ```python
 report = cp.getreport(df.iloc[0, 3])
 ```
-
-2.Accounting Item会计科目
+2. Accounting Item会计科目
 ```python
-import cpanlp as cp
 gold_asset = cp.Asset(account="gold", debit=1000,date="2023-01-01")
 print(gold_asset.bubble)
 ```
-
-3.Information Asymmetry信息不对称
+3. Information Asymmetry信息不对称
 ```python
-import cpanlp as cp
-info = cp.AsymmetricInformation("investor", "company_A", "I am very interested in investing in your business", "I have a limited budget")
+info = cp.AsymmetricInformation(sender="investor", receiver="company_A", message="I am very interested in investing in your business", hidden_information="I have a limited budget")
 info.get_advantage()
 ```
-
-4.Entrepreneur企业家
+4. Entrepreneur企业家
 ```python
-import cpanlp as cp
-john = cp.Entrepreneur("John Smith",30, 5,LLC("Apple","Electronics",1000000))
+john = cp.Entrepreneur(name="John Smith",age=30,wealth=100000,utility_function=0, experience=5,company=LLC("Apple","Electronics",1000000),entrepreneurship=Entrepreneurship(leadership=9.0))
 john.strive_for_excellence()
 ```
-
-5.Strategy策略
+5. Strategy策略
 ```python
-import cpanlp as cp
 huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 ```
+
 Check out: https://cpanlp.com
