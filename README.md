@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
 
 We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package for intelligent certified accountants.
-这个时代叫做AI，我们是北外智能会计博士课题组，致力推动具有`经济学基础的会计学的语言学转向`(**The Linguistic Turn of Accounting on Economic Basis**)`。
+这个时代叫做AI，我们是北外智能会计博士课题组，致力推动具有**经济学基础的会计学的语言学转向**(**The Linguistic Turn of Accounting on Economic Basis**)。
 
 
 Redefining [Accounting](https://cpanlp.com/overview/redefine)!
@@ -34,9 +34,26 @@ For detailed installation instructions, see the
 pip install cpanlp
 import cpanlp as cp
 ```
-
-## Features主要功能
-1. Get Report今日财报
+## MODULE 主要模块:
+- [x] **Accounting Account 会计科目**：`Asset资产`，`Liability负债`，`Equity所有者权益`，`Income收入`，`Cashflow现金流`
+- [x] **Legal Entity 法律实体**： `LLC(Limited Liability Company)有限责任公司`，`Partnership合伙企业`，`Public  Company公众企业`，`SME(Small and medium-sized enterprises)中小企业`
+- [x] **StakerHolder 利益相关者**：`Bank银行`，`Government政府`，`Media媒体`，`Public公众`，`Rating Agency评级机构`，
+- [x] **Person 个体**：${\color{red}Consumer消费者}$，`Employee员工`，`Entrepreneur企业家`，`Manager经理`，`Investor投资人`，`Partner合伙人`，`Shareholder股东`，`Supervisor监管者`，`Creditor债权人`，`Auditor审计`，`Beneficiary受益人`，`Fiduciary受托人`，`Craftsman工匠`
+- [x] **Market 市场**：`Commodity商品`，`Bubble泡沫`，`Perfectly Competitive Market完全竞争市场`，`Monopoly Market垄断市场`，`Oligopoly Market寡头垄断市场`
+- [x] **Department 部门**：`Board Of Directors董事会`
+- [x] **Event 事件**：`Acquisition并购`
+- [x] **Institution 制度**
+- [x] **Policy 政策**：`Acquisition并购`
+- [x] **Contract 合约**：`Lease租约`，`Loan Contract借贷合同`，`Labor Contract劳动合同`
+- [x] **Information 信息**：`Signal信号`，`Speculative Information投机信息`，`Asymmetric Information不对称信息`，`Incentive激励`
+- [x] **Risk 风险**
+- [x] **Control 控制权**：`Commodity Control商品控制权`，`Residual Control剩余控制权`
+- [x] **Culture 文化**：`Entrepreneurship企业家精神`，`Craftsmanship工匠精神`
+- [x] **Strategy 战略**：`Long Term Strategy长期策略`，`Financial Strategy财务策略`
+- [x] **Tax 税法**：`VAT(Value-Added Tax)增值税`，`Consumption Tax消费税`，`Personal Income Tax个人所得税`，`Corporate Income Tax企业所得税`，`RealEstate Tax房产税`，`TransactionTax印花税`
+- [x] **Abnormal 异象**：`Winner Curse赢者诅咒`ß
+## Features 主要功能
+1. Get Report 今日财报
 ```python
 df = cp.gettoday()
 ```
@@ -47,24 +64,25 @@ df = cp.gettoday()
 ```python
 report = cp.getreport(df.iloc[0, 3])
 ```
-2. Accounting Item会计科目
+2. Accounting Item 会计科目
 ```python
 gold_asset = cp.Asset(account="gold", debit=1000,date="2023-01-01")
 print(gold_asset.bubble)
 ```
-3. Information Asymmetry信息不对称
+3. Information Asymmetry 信息不对称
 ```python
 info = cp.AsymmetricInformation(sender="investor", receiver="company_A", message="I am very interested in investing in your business", hidden_information="I have a limited budget")
 info.get_advantage()
 ```
-4. Entrepreneur企业家
+4. Entrepreneur 企业家
 ```python
 john = cp.Entrepreneur(name="John Smith",age=30,wealth=100000,utility_function=0, experience=5,company=LLC("Apple","Electronics",1000000),entrepreneurship=Entrepreneurship(leadership=9.0))
 john.strive_for_excellence()
 ```
-5. Strategy策略
+5. Strategy 策略
 ```python
 huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 ```
+
 
 Check out: https://cpanlp.com
