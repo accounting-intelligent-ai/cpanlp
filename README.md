@@ -34,24 +34,7 @@ For detailed installation instructions, see the
 pip install cpanlp
 import cpanlp as cp
 ```
-## MODULE 主要模块:
-- [x] **Accounting Account 会计科目**：`Asset资产`，`Liability负债`，`Equity所有者权益`，`Income收入`，`Cashflow现金流`
-- [x] **Legal Entity 法律实体**： `LLC(Limited Liability Company)有限责任公司`，`Partnership合伙企业`，`Public  Company公众企业`，`SME(Small and medium-sized enterprises)中小企业`
-- [x] **StakerHolder 利益相关者**：`Bank银行`，`Government政府`，`Media媒体`，`Public公众`，`Rating Agency评级机构`，
-- [x] **Person 个体**：${\color{red}Consumer消费者}$，`Employee员工`，`Entrepreneur企业家`，`Manager经理`，`Investor投资人`，`Partner合伙人`，`Shareholder股东`，`Supervisor监管者`，`Creditor债权人`，`Auditor审计`，`Beneficiary受益人`，`Fiduciary受托人`，`Craftsman工匠`
-- [x] **Market 市场**：`Commodity商品`，`Bubble泡沫`，`Perfectly Competitive Market完全竞争市场`，`Monopoly Market垄断市场`，`Oligopoly Market寡头垄断市场`
-- [x] **Department 部门**：`Board Of Directors董事会`
-- [x] **Event 事件**：`Acquisition并购`
-- [x] **Institution 制度**
-- [x] **Policy 政策**：`Acquisition并购`
-- [x] **Contract 合约**：`Lease租约`，`Loan Contract借贷合同`，`Labor Contract劳动合同`
-- [x] **Information 信息**：`Signal信号`，`Speculative Information投机信息`，`Asymmetric Information不对称信息`，`Incentive激励`
-- [x] **Risk 风险**
-- [x] **Control 控制权**：`Commodity Control商品控制权`，`Residual Control剩余控制权`
-- [x] **Culture 文化**：`Entrepreneurship企业家精神`，`Craftsmanship工匠精神`
-- [x] **Strategy 战略**：`Long Term Strategy长期策略`，`Financial Strategy财务策略`
-- [x] **Tax 税法**：`VAT(Value-Added Tax)增值税`，`Consumption Tax消费税`，`Personal Income Tax个人所得税`，`Corporate Income Tax企业所得税`，`RealEstate Tax房产税`，`TransactionTax印花税`
-- [x] **Abnormal 异象**：`Winner Curse赢者诅咒`ß
+
 ## Features 主要功能
 1. Get Report 今日财报
 ```python
@@ -84,5 +67,25 @@ john.strive_for_excellence()
 huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 ```
 
+## MODULE 主要模块:
+- [x] **Accounting Account 会计科目**：`Asset资产`，`Liability负债`，`Equity所有者权益`，`Income收入`，`Cashflow现金流`
+- [x] **Legal Entity 法律实体**： `LLC(Limited Liability Company)有限责任公司`，`Partnership合伙企业`，`Public  Company公众企业`，`SME(Small and medium-sized enterprises)中小企业`
+- [x] **StakerHolder 利益相关者**：`Bank银行`，`Government政府`，`Media媒体`，`Public公众`，`Rating Agency评级机构`，
+- [x] **Person 个体**：${\color{red}Consumer消费者}$，`Employee员工`，`Entrepreneur企业家`，`Manager经理`，`Investor投资人`，`Partner合伙人`，`Shareholder股东`，`Supervisor监管者`，`Creditor债权人`，`Auditor审计`，`Beneficiary受益人`，`Fiduciary受托人`，`Craftsman工匠`
+- [x] **Market 市场**：`Commodity商品`，`Bubble泡沫`，`Perfectly Competitive Market完全竞争市场`，`Monopoly Market垄断市场`，`Oligopoly Market寡头垄断市场`
+- [x] **Conglomerate 集团**：`Associate Company联营公司`，`Joint Venture合营公司`，`Subsidiary子公司`
+- [x] **Department 部门**：`Board Of Directors董事会`
+- [x] **Event 事件**：`Acquisition并购`
+- [x] **Institution 制度**
+- [x] **Policy 政策**：`Acquisition并购`
+- [x] **Contract 合约**：`Lease租约`，`Loan Contract借贷合同`，`Labor Contract劳动合同`，`Financial Instrument金融工具`
+- [x] **Information 信息**：`Signal信号`，`Speculative Information投机信息`，`Asymmetric Information不对称信息`，`Incentive激励`
+- [x] **Risk 风险**
+- [x] **Scheme 图示**：`Ponzi Scheme庞氏骗局`
+- [x] **Control 控制**：`Voting Power 投票权`，`Commodity Control商品控制权`，`Significant Influence重大影响`
+- [x] **Culture 文化**：`Entrepreneurship企业家精神`，`Craftsmanship工匠精神`
+- [x] **Strategy 战略**：`Long Term Strategy长期策略`，`Financial Strategy财务策略`
+- [x] **Tax 税法**：`VAT(Value-Added Tax)增值税`，`Consumption Tax消费税`，`Personal Income Tax个人所得税`，`Corporate Income Tax企业所得税`，`RealEstate Tax房产税`，`TransactionTax印花税`
+- [x] **Abnormal 异象**：`Winner Curse赢者诅咒`
 
 Check out: https://cpanlp.com
