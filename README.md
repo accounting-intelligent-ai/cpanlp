@@ -88,4 +88,9 @@ huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 - [x] **Tax 税法**：`VAT(Value-Added Tax)增值税`，`Consumption Tax消费税`，`Personal Income Tax个人所得税`，`Corporate Income Tax企业所得税`，`RealEstate Tax房产税`，`TransactionTax印花税`
 - [x] **Abnormal 异象**：`Winner Curse赢者诅咒`
 
+## Accounting Gym-Env 配套的智能会计强化学习虚拟环境
+<a href="https://pypi.org/project/cpagym/">
+<img src="https://raw.githubusercontent.com/accounting-intelligent-ai/cpagym/main/cpagym.png" width = "200" height = "200" alt="logo" align=center />
+</a>
+
 Check out: https://cpanlp.com
