@@ -17,14 +17,14 @@ if __name__ == '__main__':
 
 
 We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package for intelligent certified accountants.
-这个时代叫做AI，我们是北外智能会计博士课题组，致力推动具有**经济学基础的会计学的语言学转向**(**The Linguistic Turn of Accounting on Economic Basis**)。
+这个时代叫做AI，我们是北外智能会计博士研究团队，致力推动具有**经济学基础的会计学的语言学转向**(**The Linguistic Turn of Accounting on Economic Basis**)。
 
 
 Redefining [Accounting](https://cpanlp.com/overview/redefine)!
 Developed by **Bfsu Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
-[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.0.1&color=blue)](https://pypi.org/project/cpanlp/)
+[![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.1.29&color=blue)](https://pypi.org/project/cpanlp/)
 [![Downloads](https://static.pepy.tech/badge/cpanlp/week)](https://pepy.tech/project/cpanlp)
 
 ## Install & Import 安装和导入
@@ -68,25 +68,31 @@ huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 ```
 
 ## MODULE 主要模块:
+- [x] **Abnormal 异象**：`Winner Curse赢者诅咒`，`Bubble泡沫`
 - [x] **Accounting Account 会计科目**：`Asset资产`，`Liability负债`，`Equity所有者权益`，`Income收入`，`Cashflow现金流`
-- [x] **Legal Entity 法律实体**： `LLC(Limited Liability Company)有限责任公司`，`Partnership合伙企业`，`Public  Company公众企业`，`SME(Small and medium-sized enterprises)中小企业`
-- [x] **StakerHolder 利益相关者**：`Bank银行`，`Government政府`，`Media媒体`，`Public公众`，`Rating Agency评级机构`，
-- [x] **Person 个体**：${\color{red}Consumer消费者}$，`Employee员工`，`Entrepreneur企业家`，`Manager经理`，`Investor投资人`，`Partner合伙人`，`Shareholder股东`，`Supervisor监管者`，`Creditor债权人`，`Auditor审计`，`Beneficiary受益人`，`Fiduciary受托人`，`Craftsman工匠`
-- [x] **Market 市场**：`Commodity商品`，`Bubble泡沫`，`Perfectly Competitive Market完全竞争市场`，`Monopoly Market垄断市场`，`Oligopoly Market寡头垄断市场`
-- [x] **Conglomerate 集团**：`Associate Company联营公司`，`Joint Venture合营公司`，`Subsidiary子公司`
-- [x] **Department 部门**：`Board Of Directors董事会`
-- [x] **Event 事件**：`Acquisition并购`
-- [x] **Institution 制度**
-- [x] **Policy 政策**：`Acquisition并购`
+- [x] **Business 业务**：`MainBusiness主营业务`
 - [x] **Contract 合约**：`Lease租约`，`Loan Contract借贷合同`，`Labor Contract劳动合同`，`Financial Instrument金融工具`
-- [x] **Information 信息**：`Signal信号`，`Speculative Information投机信息`，`Asymmetric Information不对称信息`，`Incentive激励`
-- [x] **Risk 风险**
-- [x] **Scheme 图示**：`Ponzi Scheme庞氏骗局`
 - [x] **Control 控制**：`Voting Power 投票权`，`Commodity Control商品控制权`，`Significant Influence重大影响`
 - [x] **Culture 文化**：`Entrepreneurship企业家精神`，`Craftsmanship工匠精神`
+- [x] **Department 部门**：`Board Of Directors董事会`
+- [x] **Entity 实体**： `LLC(Limited Liability Company)有限责任公司`，`Partnership合伙企业`，`Public  Company公众企业`，`SME(Small and medium-sized enterprises)中小企业`，`Conglomerate 集团`
+- [x] **Environment 环境**：`EconomicEnvironment并购`，`IndustryEnvironment行业环境`，`CreditEnvironment信用环境`
+- [x] **Event 事件**：`Acquisition并购`，`Certification认证`，`Meeting会议`，`Resignation离职`，`Repurchase回购`，`Registration注册`，`Lawsuit诉讼`，`StockHoldingIncrease增持`
+- [x] **Information 信息**：`Signal信号`，`Speculative Information投机信息`，`Asymmetric Information不对称信息`，`Incentive激励`
+- [x] **Incentive 激励**
+- [x] **Institution 制度**
+- [x] **Person 个体**：${\color{red}Consumer消费者}$，`Employee员工`，`Entrepreneur企业家`，`Manager经理`，`Investor投资人`，`Partner合伙人`，`Shareholder股东`，`Supervisor监管者`，`Creditor债权人`，`Auditor审计`，`Beneficiary受益人`，`Fiduciary受托人`，`Craftsman工匠`
+- [x] **Market 市场**：`Commodity货物`，`Goods商品`，`Market Structure市场结构`
+- [x] **Policy 政策**：`AccountingPolicy会计政策`，`DividendPolicy股利政策`
+- [x] **Project 项目**
+- [x] **Pragmatics 语用**
+- [x] **Risk 风险**
+- [x] **StakerHolder 利益相关者**：`Bank银行`，`Government政府`，`Media媒体`，`Public公众`，`Rating Agency评级机构`
+- [x] **Scheme 图示**：`Ponzi Scheme庞氏骗局`，`ESOP员工持股`，`DebtRestructuringPlan债务重组`
 - [x] **Strategy 战略**：`Long Term Strategy长期策略`，`Financial Strategy财务策略`
 - [x] **Tax 税法**：`VAT(Value-Added Tax)增值税`，`Consumption Tax消费税`，`Personal Income Tax个人所得税`，`Corporate Income Tax企业所得税`，`RealEstate Tax房产税`，`TransactionTax印花税`
-- [x] **Abnormal 异象**：`Winner Curse赢者诅咒`
+- [x] **Team 团队**：
+- [x] **Utility 效用**：
 
 ## Accounting Gym-Env 配套的智能会计强化学习虚拟环境
 <a href="https://pypi.org/project/cpagym/">
