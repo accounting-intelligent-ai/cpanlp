@@ -68,12 +68,12 @@ john.strive_for_excellence()
 huawei = p.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 ```
 
-### Decorator 语言装饰器:
-3. Information Asymmetry 信息不对称
+## Decorator 语言装饰器:
 ```python
-info =  p.AsymmetricInformation(sender="investor", receiver="company_A", message="I am very interested in 
-investing in your business", hidden_information="I have a limited budget")
-info.get_advantage()
+@prob(probability=0.7) #Estimate 估计
+@future_tense #Future Tense 将来时态
+side_effects=["financial instability","loss of reputation","decreased employee morale"]
+@with_side_effects(side_effects=side_effects)#Side Effects 副作用
 ```
 ## Module 主要模块:
 - [x] **Abnormal 异象**：`Winner Curse赢者诅咒`，`Bubble泡沫`
