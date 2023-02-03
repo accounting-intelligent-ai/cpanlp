@@ -1,27 +1,28 @@
 # CPANLP: Certified Public Accountant Natural Language Processing toolkit
-
-### 给您拜年了 Happy 🐰 Year
+### Narrating Accounting using Python
+- sales increased 12% compared with fourth quarter 2021:
+  - North America segment sales increased 13% year-over-year to $93.4 billion, or increased 14% excluding changes in foreign exchange rates.
+  - International segment sales decreased 8% year-over-year to $34.5 billion, or increased 5% excluding changes in foreign exchange rates.
+  - AWS segment sales increased 20% year-over-year to $21.4 billion.
 ```python
-def Happy 🐰 Year():
-    wishes = ["新年快乐！兔年大吉！", "天天开心，身体健康！", "全家幸福，事事顺心！"]
-    happy_asset = Happy_New_Year_Asset("Everybody","2023-01-22",0.005,wishes)
-    happy_asset.add_wishes(wishes)
-    happy_asset.amortize(1)
-    happy_person = happy_asset.account
-    happy_income = happy_asset.amortization_history[0][1]
-    print(happy_person,"新年第一天的幸福：",happy_income,"😄") 
-if __name__ == '__main__':
-    Happy 🐰 Year()
+sale1 = p.Sale(quarter="Q4",amount=93.4,unit="billion dollars",growth_rate=13%,year=2022,segment="North America")
+sale2 = p.Sale(quarter="Q4",amount=34.5,unit="billion dollars",growth_rate=-8%,year=2022,segment="International")
+sale3 = p.Sale(quarter="Q4",amount=21.4,unit="billion dollars",growth_rate=20%,year=2022,segment="AWS")
+sales = [sale1, sale2, sale3]
+total_sales = 0
+for s in sales:
+    total_sales += s.amount
+    print(f"Segment: {s.segment}, Sale: {s.amount}")
+
+print(f"Total Sales: {total_sales}")
 ```
-[![](https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png)](https://cpanlp.com)
 
+<a href="https://cpanlp.com">
+<img src="https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png" width = "250" height = "80" alt="logo" align=center />
+</a>
 
-We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package for intelligent certified accountants.
-这个时代叫做AI，我们是北外智能会计博士研究团队，致力推动具有**经济学基础的会计学的语言学转向**(**The Linguistic Turn of Accounting on Economic Basis**)。
-
-
-Redefining [Accounting](https://cpanlp.com/overview/redefine)!
-Developed by **Bfsu Intelligent Accounting Team** (c) 2023
+Narrating [Accounting](https://cpanlp.com/overview/redefine)! using Python
+Developed by **Cpanlp Intelligent Accounting Team** (c) 2023
 [Github](https://github.com/accounting-intelligent-ai/cpanlp)
 
 [![PyPI - Python Version](https://img.shields.io/static/v1?label=pypi&message=v1.1.29&color=blue)](https://pypi.org/project/cpanlp/)
@@ -32,42 +33,49 @@ For detailed installation instructions, see the
 [documentation](https://cpanlp.com/documentation).
 ```python
 pip install cpanlp
-import cpanlp as cp
+import cpanlp as p
 ```
 
 ## Features 主要功能
 1. Get Report 今日财报
 ```python
-df = cp.gettoday()
+df = p.gettoday()
 ```
 |    | 标题                                               |   证券代码 | 证券简称   | 网址                                                            | 日期       |   id |
 |---:|:---------------------------------------------------|-----------:|:-----------|:----------------------------------------------------------------|:-----------|-----:|
 |  0 | 唐源电气：国金证券关于唐源电气2022年度现场检查报告 |     300789 | 唐源电气   | http://static.cninfo.com.cn/finalpage/2023-01-03/1215519757.PDF | 2023-01-03 |    1 |
 
 ```python
-report = cp.getreport(df.iloc[0, 3])
+report = p.getreport(df.iloc[0, 3])
 ```
 2. Accounting Item 会计科目
 ```python
-gold_asset = cp.Asset(account="gold", debit=1000,date="2023-01-01")
+gold_asset = p.Asset(account="gold", debit=1000,date="2023-01-01")
 print(gold_asset.bubble)
 ```
 3. Information Asymmetry 信息不对称
 ```python
-info = cp.AsymmetricInformation(sender="investor", receiver="company_A", message="I am very interested in investing in your business", hidden_information="I have a limited budget")
+info = p.AsymmetricInformation(sender="investor", receiver="company_A", message="I am very interested in investing in your business", hidden_information="I have a limited budget")
 info.get_advantage()
 ```
 4. Entrepreneur 企业家
 ```python
-john = cp.Entrepreneur(name="John Smith",age=30,wealth=100000,utility_function=0, experience=5,company=LLC("Apple","Electronics",1000000),entrepreneurship=Entrepreneurship(leadership=9.0))
+john = p.Entrepreneur(name="John Smith",age=30,wealth=100000,utility_function=0, experience=5,company=LLC("Apple","Electronics",1000000),entrepreneurship=Entrepreneurship(leadership=9.0))
 john.strive_for_excellence()
 ```
 5. Strategy 策略
 ```python
-huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
+huawei = p.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 ```
 
-## MODULE 主要模块:
+### Decorator 语言装饰器:
+3. Information Asymmetry 信息不对称
+```python
+info =  p.AsymmetricInformation(sender="investor", receiver="company_A", message="I am very interested in 
+investing in your business", hidden_information="I have a limited budget")
+info.get_advantage()
+```
+## Module 主要模块:
 - [x] **Abnormal 异象**：`Winner Curse赢者诅咒`，`Bubble泡沫`
 - [x] **Accounting Account 会计科目**：`Asset资产`，`Liability负债`，`Equity所有者权益`，`Income收入`，`Cashflow现金流`
 - [x] **Business 业务**：`MainBusiness主营业务`
@@ -85,7 +93,7 @@ huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 - [x] **Market 市场**：`Commodity货物`，`Goods商品`，`Market Structure市场结构`
 - [x] **Policy 政策**：`AccountingPolicy会计政策`，`DividendPolicy股利政策`
 - [x] **Project 项目**
-- [x] **Pragmatics 语用**
+- [x] **Pragmatics 语用**：`Promise承诺`
 - [x] **Risk 风险**
 - [x] **StakerHolder 利益相关者**：`Bank银行`，`Government政府`，`Media媒体`，`Public公众`，`Rating Agency评级机构`
 - [x] **Scheme 图示**：`Ponzi Scheme庞氏骗局`，`ESOP员工持股`，`DebtRestructuringPlan债务重组`
@@ -94,7 +102,7 @@ huawei = cp.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 - [x] **Team 团队**：
 - [x] **Utility 效用**：
 
-## Accounting Gym-Env 配套的智能会计强化学习虚拟环境
+## Accounting Gym-Env 会计强化学习环境
 <a href="https://pypi.org/project/cpagym/">
 <img src="https://raw.githubusercontent.com/accounting-intelligent-ai/cpagym/main/cpagym.png" width = "200" height = "200" alt="logo" align=center />
 </a>
