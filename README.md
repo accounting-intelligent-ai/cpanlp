@@ -1,5 +1,6 @@
-# CPANLP: Certified Public Accountant Natural Language Processing toolkit
-### Narrating Accounting using Python
+# CPANLP🎺: Certified Public Accountant Natural Language Processing toolkit
+### Talk is cheap ,show me the code
+Narrating Accounting using Python
 - sales increased 12% compared with fourth quarter 2021:
   - North America segment sales increased 13% year-over-year to $93.4 billion, or increased 14% excluding changes in foreign exchange rates.
   - International segment sales decreased 8% year-over-year to $34.5 billion, or increased 5% excluding changes in foreign exchange rates.
@@ -68,13 +69,22 @@ john.strive_for_excellence()
 huawei = p.FinancialStrategy("huawei","defense",poison_pill(1000,0.1))
 ```
 
-## Decorator 语言装饰器:
+## Accounting Language Decorator 会计语言装饰器:
 ```python
 @prob(probability=0.7) #Estimate 估计
+
 @future_tense #Future Tense 将来时态
+
 side_effects=["financial instability","loss of reputation","decreased employee morale"]
 @with_side_effects(side_effects=side_effects)#Side Effects 副作用
 ```
+
+## Finance Exception 会计异常:
+```python
+if abs(percent_change) > 10:
+  raise AbnormalFluctuation(stock_name, percent_change)
+```
+
 ## Module 主要模块:
 - [x] **Abnormal 异象**：`Winner Curse赢者诅咒`，`Bubble泡沫`
 - [x] **Accounting Account 会计科目**：`Asset资产`，`Liability负债`，`Equity所有者权益`，`Income收入`，`Cashflow现金流`
