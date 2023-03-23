@@ -7,6 +7,13 @@ Formal Accounting
    :alt: logo
    :align: center
 
+.. image:: https://img.shields.io/static/v1?label=pypi&message=v1.2.51&color=blue
+   :target: https://pypi.org/project/cpanlp/
+   :alt: PyPI - Python Version
+
+.. image:: https://static.pepy.tech/badge/cpanlp/week
+   :target: https://pepy.tech/project/cpanlp
+   :alt: Downloads
 This example shows a basic Sphinx project with Read the Docs. You're encouraged to view it to get inspiration and copy & paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official `Read the Docs Tutorial <https://docs.readthedocs.io/en/stable/tutorial/index.html>`__.
 
 📚 `docs/ <https://github.com/accounting-intelligent-ai/cpanlp>`_
