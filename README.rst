@@ -1,15 +1,10 @@
-Example: Basic Sphinx project for Read the Docs
+Formal Accounting
 ===============================================
 
-.. image:: https://readthedocs.org/projects/example-sphinx-basic/badge/?version=latest
-    :target: https://example-sphinx-basic.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
-
-.. This README.rst should work on Github and is also included in the Sphinx documentation project in docs/ - therefore, README.rst uses absolute links for most things so it renders properly on GitHub
 
 This example shows a basic Sphinx project with Read the Docs. You're encouraged to view it to get inspiration and copy & paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official `Read the Docs Tutorial <https://docs.readthedocs.io/en/stable/tutorial/index.html>`__.
 
-📚 `docs/ <https://github.com/readthedocs-examples/example-sphinx-basic/blob/main/docs/>`_
+📚 `docs/ <https://github.com/accounting-intelligent-ai/cpanlp>`_
     A basic Sphinx project lives in ``docs/``. All the ``*.rst`` make up sections in the documentation.
 ⚙️ `.readthedocs.yaml <https://github.com/readthedocs-examples/example-sphinx-basic/blob/main/.readthedocs.yaml>`_
     Read the Docs Build configuration is stored in ``.readthedocs.yaml``.
@@ -41,13 +36,15 @@ You can build and view this documentation project locally - we recommend that yo
 .. code-block:: console
 
     # Install required Python dependencies (Sphinx etc.)
-    pip install -r docs/requirements.txt
+    pip install scipy
+    pip install numpy
+    pip install pandas
 
     # Enter the Sphinx project
     cd docs/
     
     # Run the raw sphinx-build command
-    sphinx-build -M html . _build/
+    pip install cpanlp
 
 
 You can also build the documentation locally with ``make``:
