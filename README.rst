@@ -2,6 +2,7 @@ Formal Accounting
 ===============================================
 
 .. image:: https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png
+   :align: left
    :width: 250
    :height: 100
    :alt: logo
@@ -92,7 +93,7 @@ If you are copying this code in order to get started with your documentation, yo
 Module
 ----------------------
 
-.. list-table:: Module
+.. list-table:: cpanlp main module
    :widths: 25 25 50
    :header-rows: 1
 
