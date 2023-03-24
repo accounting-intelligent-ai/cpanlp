@@ -1,14 +1,14 @@
 Formal language
 =====
 
-Double-entry accounting
+Double-entry
 ------------
 
 the concept of debits and credits is central to accounting, and the rules governing their application can be viewed as a type of formal language.
 
 >>> pip install cpanlp
 
-Cash Basis accounting
+Cash Basis
 ----------------
 
 The formal language of the cash basis accounting method includes the recognition of revenue when cash is received and the recognition of expenses when cash is paid out. This method is simple and straightforward, making it popular with small businesses and individuals who do not have complex accounting needs.
@@ -26,7 +26,7 @@ For example:
 >>> sale1 = p.Sale(quarter="Q4",amount=93.4,unit="billion dollars",growth_rate=13%,year=2022,segment="North America")
 ['shells', 'gorgonzola', 'parsley']
 
-Accrual Basis Accounting
+Accrual Basis
 ----------------
 
 The formal language of the accrual basis accounting method includes the recognition of revenue when it is earned, regardless of whether or not the cash has been received, and the recognition of expenses when they are incurred, regardless of whether or not the cash has been paid out.
