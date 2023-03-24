@@ -1,4 +1,4 @@
-Formal
+Formal language
 =====
 
 Double-entry accounting
@@ -38,3 +38,7 @@ For example:
 >>> gold_asset = p.Asset(account="gold", debit=1000,date="2023-01-01")
 >>> print(gold_asset.bubble)
 
+GAAP
+----------------
+
+The formal language of GAAP includes standardized financial reporting formats such as balance sheets, income statements, and cash flow statements, as well as specific terms and concepts such as assets, liabilities, equity, revenues, expenses, and gains/losses. GAAP also includes specific rules and guidelines for how financial information should be recorded and reported, including rules related to depreciation, inventory valuation, and revenue recognition.
