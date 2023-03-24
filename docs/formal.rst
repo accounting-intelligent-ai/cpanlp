@@ -4,15 +4,16 @@ Formal
 Double-entry accounting
 ------------
 
-debit and credit
+the concept of debits and credits is central to accounting, and the rules governing their application can be viewed as a type of formal language.
 
 .. code-block:: console
 
  pip install cpanlp
 
-Creating recipes
+Cash Basis accounting
 ----------------
 
+The formal language of the cash basis accounting method includes the recognition of revenue when cash is received and the recognition of expenses when cash is paid out. This method is simple and straightforward, making it popular with small businesses and individuals who do not have complex accounting needs.
 To retrieve a list of random ingredients,
 you can use the ``Sale()`` class:
 
