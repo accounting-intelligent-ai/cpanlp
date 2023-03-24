@@ -2,10 +2,9 @@ Formal Accounting
 ===============================================
 
 .. image:: https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png
-   :width: 220
+   :width: 250
    :height: 100
    :alt: logo
-   :align: center
 
 .. image:: https://img.shields.io/static/v1?label=pypi&message=v1.2.51&color=blue
    :target: https://pypi.org/project/cpanlp/
@@ -14,7 +13,8 @@ Formal Accounting
 .. image:: https://static.pepy.tech/badge/cpanlp/week
    :target: https://pepy.tech/project/cpanlp
    :alt: Downloads
-This example shows a basic Sphinx project with Read the Docs. You're encouraged to view it to get inspiration and copy & paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official `Read the Docs Tutorial <https://docs.readthedocs.io/en/stable/tutorial/index.html>`__.
+
+This Python package displays the application of formal accounting. `Read the Docs Tutorial <https://www.cpanlp.com/>`__.
 
 📚 `docs/ <https://github.com/accounting-intelligent-ai/cpanlp>`_
     A basic Sphinx project lives in ``docs/``. All the ``*.rst`` make up sections in the documentation.
@@ -89,8 +89,43 @@ If you are copying this code in order to get started with your documentation, yo
 #. *finally*, register your project on Read the Docs, see `Importing Your Documentation <https://docs.readthedocs.io/en/stable/intro/import-guide.html>`_.
 
 
-Read the Docs tutorial
+Module
 ----------------------
 
-To get started with Read the Docs, you may also refer to the `Read the Docs tutorial <https://docs.readthedocs.io/en/stable/tutorial/>`__.
-It provides a full walk-through of building an example project similar to the one in this repository.
+|  Category   |  Module   | Example  |
+|  :----: |  :----:  | :----:  |
+| **Accounting**  | Asset|`Intangible Asset`|
+| | Liability |`Financial Liability`|
+| | Equity|`Share`|
+| | Income|`Revenue`|
+| | Cashflow |`Cashflow`|
+| | Policy |`DividendPolicy`|
+| | Report |`IncomeSmoothing`|
+| **Audit**  | Audit|`Audit Opinion`|
+| **Business**  | `Main Business`，`Capacity`，`Business Model`，`Value Chain`，`Operation` |
+| ${\color{purple}Decorator}$| `Estimate` ，`Tense`，`Importance`，`With Effects`，`Validator`|
+| **Corporate Law**  | Contract|`Lease`|
+|  | Control|`Voting Power`|
+|  | Entity|`LLC`|
+|  | Provision|`SayOnPay`|
+| **Department**  | `Board Of Directors` ，`Supervisory Board`|
+| **Event**  | `Acquisition`，`Certification`，`Grants`，`Meeting`，`Resignation`，`Repurchase`，`Personnel`，`Registration`，`Shares`，`Lawsuit`，
+`StockHoldingIncrease` |
+| ${\color{purple}Exception}$| `Abnormal Fluctuation`，`Bubble`，`Winner Curse`|
+| **Financial Management**  | Incentive|`Promotion Incentive`|
+| | Scheme|`Ponzi`|
+| **Institution**  |  |
+| **Market**  | `Commodity`，`Goods`|
+| **Person**  | ${\color{red}Consumer}$，`Employee`，`Entrepreneur`，`Manager`，`Investor`，`Partner`，`Shareholder`，`Supervisor`，`Creditor`，`Auditor`，
+`Beneficiary`，`Fiduciary`，`Craftsman` |
+| **Project**  |  |
+| **Pragmatics**  | `Promise` |
+| **Risk** | |
+| **StakerHolder**  | `Bank`，`Government`，`Media`，`Public`，`Rating Agency` |
+| **Strategy**  | `Layout`，`Long Term Strategy`，`Financial Strategy` |
+| **Tax**  | Tax on Behavior |`TransactionTax`|
+| |Tax on Income |`PersonalIncomeTax`|
+| |Tax on Property |`RealEstateTax`|
+| |Tax on Turnover |`VAT`|
+| **Team**  | `ResearchTeam `|
+| **Utility**  | |
