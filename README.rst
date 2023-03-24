@@ -102,16 +102,22 @@ Module
    * - **Accounting**
      - Asset
      - ``Intangible Asset``
+   * - 
      - Liability
      - ``Financial Liability``
+   * - 
      - Equity
      - ``Share``
+   * - 
      - Income
      - ``Revenue``
+   * - 
      - Cashflow
      - ``Cashflow``
+   * - 
      - Policy
      - ``DividendPolicy``
+   * - 
      - Report
      - ``IncomeSmoothing``
    * - **Audit**
@@ -145,5 +151,5 @@ Module
      - Provision
      - ``SayOnPay``
    * - **Strategy**
-     - 
+     - Incentive
      - ``Long Term Strategy``
