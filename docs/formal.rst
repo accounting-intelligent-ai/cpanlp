@@ -1,16 +1,14 @@
 Formal
 =====
 
-.. _installation:
-
-Installation
+Double-entry accounting
 ------------
 
-To use Lumache, first install it using pip:
+debit and credit
 
 .. code-block:: console
 
-   (.venv) $ pip install cpanlp
+ pip install cpanlp
 
 Creating recipes
 ----------------
