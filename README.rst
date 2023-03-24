@@ -2,7 +2,7 @@ Formal Accounting
 ===============================================
 
 .. image:: https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png
-   :align: left
+   :align: center
    :width: 250
    :height: 100
    :alt: logo
