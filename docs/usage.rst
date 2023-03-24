@@ -38,3 +38,68 @@ For example:
 
 >>> gold_asset = p.Asset(account="gold", debit=1000,date="2023-01-01")
 >>> print(gold_asset.bubble)
+
+Module
+----------------------
+
+.. list-table:: 
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Category
+     - Module
+     - Example
+   * - **Accounting**
+     - Asset
+     - ``Intangible Asset``
+   * - 
+     - Liability
+     - ``Financial Liability``
+   * - 
+     - Equity
+     - ``Share``
+   * - 
+     - Income
+     - ``Revenue``
+   * - 
+     - Cashflow
+     - ``Cashflow``
+   * - 
+     - Policy
+     - ``DividendPolicy``
+   * - 
+     - Report
+     - ``IncomeSmoothing``
+   * - **Audit**
+     - Audit
+     - ``Audit Opinion``
+   * - **Financial Management**
+     - Incentive
+     - ``Promotion Incentive``
+   * - 
+     - Scheme
+     - ``Ponzi``
+   * - **Tax**
+     - Tax on Behavior
+     - ``TransactionTax``
+   * - 
+     - Tax on Income
+     - ``PersonalIncomeTax``
+   * - 
+     - Tax on Property
+     - ``RealEstateTax``
+   * - **Corporate Law**
+     - Contract
+     - ``Lease``
+   * - 
+     - Control
+     - ``Voting Power``
+   * - 
+     - Entity
+     - ``LLC``
+   * - 
+     - Provision
+     - ``SayOnPay``
+   * - **Strategy**
+     - Incentive
+     - ``Long Term Strategy``
