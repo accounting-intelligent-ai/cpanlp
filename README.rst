@@ -20,7 +20,7 @@ In accounting, the formal language component refers to the specific language and
 This Python package displays the application of formal accounting.The purpose of the formal language component is to provide a standardized and consistent method for measuring and reporting `Read the Docs Tutorial <https://www.cpanlp.com/>`__.
 
 
-Example Project usage
+Project usage
 ---------------------
 
 This project has a standard Sphinx layout which is built by Read the Docs almost the same way that you would build it locally (on your own laptop!).
@@ -36,20 +36,6 @@ You can build and view this documentation project locally - we recommend that yo
     
     # Run the install command
     pip install cpanlp
-
-
-You can also build the documentation locally with ``make``:
-
-.. code-block:: console
-
-    # Enter the Sphinx project
-    cd docs/
-    
-    # Build with make
-    make html
-    
-    # Open with your preferred browser, pointing it to the documentation index page
-    firefox _build/html/index.html
 
 
 Using the example in your own project
