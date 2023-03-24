@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Certified Public Accountant Nlp Project"
+project = "Certified Public Accountant Nlp"
 copyright = "2023, Bfsu intelligent team"
 author = "Draco Deng"
 
