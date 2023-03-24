@@ -92,40 +92,51 @@ If you are copying this code in order to get started with your documentation, yo
 Module
 ----------------------
 
-|  Category   |  Module   | Example  |
-|  :----: |  :----:  | :----:  |
-| **Accounting**  | Asset|`Intangible Asset`|
-| | Liability |`Financial Liability`|
-| | Equity|`Share`|
-| | Income|`Revenue`|
-| | Cashflow |`Cashflow`|
-| | Policy |`DividendPolicy`|
-| | Report |`IncomeSmoothing`|
-| **Audit**  | Audit|`Audit Opinion`|
-| **Business**  | `Main Business`，`Capacity`，`Business Model`，`Value Chain`，`Operation` |
-| ${\color{purple}Decorator}$| `Estimate` ，`Tense`，`Importance`，`With Effects`，`Validator`|
-| **Corporate Law**  | Contract|`Lease`|
-|  | Control|`Voting Power`|
-|  | Entity|`LLC`|
-|  | Provision|`SayOnPay`|
-| **Department**  | `Board Of Directors` ，`Supervisory Board`|
-| **Event**  | `Acquisition`，`Certification`，`Grants`，`Meeting`，`Resignation`，`Repurchase`，`Personnel`，`Registration`，`Shares`，`Lawsuit`，
-`StockHoldingIncrease` |
-| ${\color{purple}Exception}$| `Abnormal Fluctuation`，`Bubble`，`Winner Curse`|
-| **Financial Management**  | Incentive|`Promotion Incentive`|
-| | Scheme|`Ponzi`|
-| **Institution**  |  |
-| **Market**  | `Commodity`，`Goods`|
-| **Person**  | ${\color{red}Consumer}$，`Employee`，`Entrepreneur`，`Manager`，`Investor`，`Partner`，`Shareholder`，`Supervisor`，`Creditor`，`Auditor`，
-`Beneficiary`，`Fiduciary`，`Craftsman` |
-| **Project**  |  |
-| **Pragmatics**  | `Promise` |
-| **Risk** | |
-| **StakerHolder**  | `Bank`，`Government`，`Media`，`Public`，`Rating Agency` |
-| **Strategy**  | `Layout`，`Long Term Strategy`，`Financial Strategy` |
-| **Tax**  | Tax on Behavior |`TransactionTax`|
-| |Tax on Income |`PersonalIncomeTax`|
-| |Tax on Property |`RealEstateTax`|
-| |Tax on Turnover |`VAT`|
-| **Team**  | `ResearchTeam `|
-| **Utility**  | |
+.. table:: Sample Table
+    +----------+----------+----------------------------------+
+    | 列1标题 | 列2标题 | 列3标题 |
+    +==========+==========+==================================+
+    | 行1列1 | 行1列2 | 行1列3 |
+    +----------+----------+----------------------------------+
+    | 行2列1 | 行2列2 | 行2列3 |
+    +----------+----------+----------------------------------+
+    
+
+    |  Category   |  Module   | Example  |
+    |  :----: |  :----:  | :----:  |
+    | **Accounting**  | Asset|`Intangible Asset`|
+    | | Liability |`Financial Liability`|
+    | | Equity|`Share`|
+    | | Income|`Revenue`|
+    | | Cashflow |`Cashflow`|
+    | | Policy |`DividendPolicy`|
+    | | Report |`IncomeSmoothing`|
+    | **Audit**  | Audit|`Audit Opinion`|
+    | **Business**  | `Main Business`，`Capacity`，`Business Model`，`Value Chain`，`Operation` |
+    | ${\color{purple}Decorator}$| `Estimate` ，`Tense`，`Importance`，`With Effects`，`Validator`|
+    | **Corporate Law**  | Contract|`Lease`|
+    |  | Control|`Voting Power`|
+    |  | Entity|`LLC`|
+    |  | Provision|`SayOnPay`|
+    | **Department**  | `Board Of Directors` ，`Supervisory Board`|
+    | **Event**  | `Acquisition`，`Certification`，`Grants`，`Meeting`，`Resignation`，`Repurchase`，`Personnel`，`Registration`，`Shares`，`Lawsuit`，
+    `StockHoldingIncrease` |
+    | ${\color{purple}Exception}$| `Abnormal Fluctuation`，`Bubble`，`Winner Curse`|
+    | **Financial Management**  | Incentive|`Promotion Incentive`|
+    | | Scheme|`Ponzi`|
+    | **Institution**  |  |
+    | **Market**  | `Commodity`，`Goods`|
+    | **Person**  | ${\color{red}Consumer}$，`Employee`，`Entrepreneur`，`Manager`，`Investor`，`Partner`，`Shareholder`，`Supervisor`，`Creditor`，`Auditor`，
+    `Beneficiary`，`Fiduciary`，`Craftsman` |
+    | **Project**  |  |
+    | **Pragmatics**  | `Promise` |
+    | **Risk** | |
+    | **StakerHolder**  | `Bank`，`Government`，`Media`，`Public`，`Rating Agency` |
+    | **Strategy**  | `Layout`，`Long Term Strategy`，`Financial Strategy` |
+    | **Tax**  | Tax on Behavior |`TransactionTax`|
+    | |Tax on Income |`PersonalIncomeTax`|
+    | |Tax on Property |`RealEstateTax`|
+    | |Tax on Turnover |`VAT`|
+    | **Team**  | `ResearchTeam `|
+    | **Utility**  | |
+    
