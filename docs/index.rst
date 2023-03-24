@@ -24,3 +24,4 @@ Contents
    usage
    api
    formal
+   syntax
