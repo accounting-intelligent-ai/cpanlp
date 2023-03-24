@@ -123,6 +123,33 @@ Module
    * - **Audit**
      - Audit
      - ``Audit Opinion``
-   * - **Business**
+   * - **Financial Management**
+     - Incentive
+     - ``Promotion Incentive``
+   * - 
+     - Scheme
+     - ``Ponzi``
+   * - **Tax**
+     - Tax on Behavior
+     - ``TransactionTax``
+   * - 
+     - Tax on Income
+     - ``PersonalIncomeTax``
+   * - 
+     - Tax on Property
+     - ``RealEstateTax``
+   * - **Corporate Law**
+     - Contract
+     - ``Lease``
+   * - 
+     - Control
+     - ``Voting Power``
+   * - 
+     - Entity
+     - ``LLC``
+   * - 
+     - Provision
+     - ``SayOnPay``
+   * - **Strategy**
      - 
-     - ``Main Business``
+     - ``Long Term Strategy``
