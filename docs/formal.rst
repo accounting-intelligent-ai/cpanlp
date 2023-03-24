@@ -22,16 +22,16 @@ The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
 or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
 will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
-
 For example:
 
 >>> import cpanlp as p
 >>> sale1 = p.Sale(quarter="Q4",amount=93.4,unit="billion dollars",growth_rate=13%,year=2022,segment="North America")
 ['shells', 'gorgonzola', 'parsley']
 
-Features
+Accrual Basis Accounting
 ----------------
+
+The formal language of the accrual basis accounting method includes the recognition of revenue when it is earned, regardless of whether or not the cash has been received, and the recognition of expenses when they are incurred, regardless of whether or not the cash has been paid out.
 
 For example:
 
