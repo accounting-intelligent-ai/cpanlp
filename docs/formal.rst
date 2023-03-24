@@ -6,9 +6,7 @@ Double-entry accounting
 
 the concept of debits and credits is central to accounting, and the rules governing their application can be viewed as a type of formal language.
 
-.. code-block:: console
-
- pip install cpanlp
+>>> pip install cpanlp
 
 Cash Basis accounting
 ----------------
@@ -42,3 +40,8 @@ GAAP
 ----------------
 
 The formal language of GAAP includes standardized financial reporting formats such as balance sheets, income statements, and cash flow statements, as well as specific terms and concepts such as assets, liabilities, equity, revenues, expenses, and gains/losses. GAAP also includes specific rules and guidelines for how financial information should be recorded and reported, including rules related to depreciation, inventory valuation, and revenue recognition.
+
+IFRS
+----------------
+
+The formal language of IFRS includes standardized financial reporting formats such as balance sheets, income statements, and cash flow statements, as well as specific terms and concepts such as assets, liabilities, equity, revenues, expenses, and gains/losses. 
