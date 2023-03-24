@@ -1,6 +1,8 @@
 Formal Accounting
 ===============================================
 
+In accounting, the formal language component refers to the specific language and rules used to communicate financial information. This includes standardized accounting principles, concepts, and terminology, as well as financial reporting formats such as balance sheets, income statements, and cash flow statements.
+
 .. image:: https://raw.githubusercontent.com/accounting-intelligent-ai/cpanlp/main/cpanlp.png
    :align: center
    :width: 250
@@ -48,15 +50,12 @@ You can build and view this documentation project locally - we recommend that yo
 
 .. code-block:: console
 
-    # Install required Python dependencies (Sphinx etc.)
+    # Install required Python dependencies
     pip install scipy
     pip install numpy
     pip install pandas
-
-    # Enter the Sphinx project
-    cd docs/
     
-    # Run the raw sphinx-build command
+    # Run the install command
     pip install cpanlp
 
 
