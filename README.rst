@@ -92,16 +92,16 @@ If you are copying this code in order to get started with your documentation, yo
 Module
 ----------------------
 
-.. table:: Sample Table
-:widths: 25 25
-:header-rows: 1
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
 
-+--------+--------+
-| 姓名 | 年龄 |
-+========+========+
-| Alice | 23 |
-+--------+--------+
-| Bob | 31 |
-+--------+--------+
-| Carol | 27 |
-+--------+--------+
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
